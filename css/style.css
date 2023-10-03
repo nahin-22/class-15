@@ -1,0 +1,73 @@
+/*=========== common css strat ===========*/
+h1,h2,h3,h4,h5,h6,
+ul,ol,li,{
+    margin: 0;
+}
+a,a:hover{
+  text-decoration: none;
+}
+ul,ol{
+ list-style-type: none;
+}
+:root{
+    first-font:'Abril Fatface', cursive;
+    second-font: 'Open Sans', sans-serif;
+    third-font: 'Ubuntu', sans-serif;
+
+}
+/*=========== common css End ===========*/
+
+/*=========== tob font css strat ===========*/
+#top{
+    padding: 19px 0;
+ background-color:#0f2f44 ;
+ color: #fefefe;
+ font-family: var(third-font);
+}
+/*=========== top  font css End ===========*/
+
+/*=========== nav css strat ===========*/
+#heading ul li a{
+    padding: 40px 19px;
+    font-weight: 500 ;
+    font-size: 16px;
+    font-family: var(third-font);
+    text-transform: capitalize;
+    color:#222222 ;
+    background-color:#ffffff;
+    display: inline-block;
+}
+#heading ul li a:hover{
+    color: #ffdb7e;
+    background-color: #fff9e6;
+}
+#heading ul li button{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border-color: 1px solid #e2e2e2;
+    margin:  0 10px;
+}
+/*=========== nav css End ===========*/
+
+
+/*=========== your css start ===========*/
+#your{
+background-image:url() ;
+}
+#item h3{
+    font-family: var(first-font);
+    color: #0f2f44;
+    text-transform: capitalize;
+}
+#item h1{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0f2f44;
+    margin: 0;
+}
+#item h2{
+
+}
+
+/*=========== your css End ===========*/
